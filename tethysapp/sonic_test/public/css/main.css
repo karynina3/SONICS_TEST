@@ -1,0 +1,29 @@
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+display: block;
+height: 0;
+overflow-y: hidden;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+height: auto;
+}
+
+#app-content-wrapper #app-content {
+height: 100%;
+/*padding-top: 60px;*/
+/*padding-bottom: 50px;*/
+}
+
+#inner-app-content {
+padding: 0;
+}
+
+#app-actions {
+display: none;
+}
+
+#map {
+height: 100%;
+}
