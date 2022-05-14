@@ -29,6 +29,11 @@ class SonicTest(TethysAppBase):
                 url='sonic-test',
                 controller='sonic_test.controllers.home'
             ),
+            UrlMap(
+                name='get_hydrographs',
+                url='get-hydrographs',
+                controller='sonic_test.controllers.get_hydrographs'
+            ),
         )
 
         return url_maps
